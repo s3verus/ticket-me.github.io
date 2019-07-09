@@ -1,0 +1,52 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: #E9ECEF;
+}
+.my-size{
+    color: white;
+    font-size: 30px;
+}
+.header{
+    background: url(../files/pic2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+.slide{
+    height: 550px;
+    width: 100%;
+}
+.slide1{
+    background: url(../files/img1.jpg) no-repeat center;
+    background-size: cover;
+}
+.slide2{
+    background: url(../files/img2.jpg) no-repeat center;
+    background-size: cover;
+}
+.slide3{
+    background: url(../files/pic1.jpeg) no-repeat center;
+    background-size: cover;
+}
+.caption{
+    position: absolute;
+    left: 60px;
+    right: 60px;
+    padding: 30px;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+}
+.caption h1{
+    padding: 0;
+    margin: 0 0 20px;
+    color: white;
+    font-size: 44px;
+}
+.caption p{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 18px;
+}
