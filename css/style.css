@@ -4,15 +4,35 @@
 body{
     background-color: #E9ECEF;
 }
+p a{
+    color: #807e83;
+}
+p a:hover{
+    color: #b8b8b9;
+    text-decoration: none;
+}
 .my-size{
     color: white;
     font-size: 30px;
+}
+.logo{
+    color: white;
+    font-size: 50px;
+}
+.subtitle{
+    color: white;
+    font-size: 10px;
 }
 .header{
     background: url(../files/pic2.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 550px;
+}
+.footer{
+    height: 550px;
+    background: #424348 url(../files/footer.png) repeat 0 0;
+    color: #807e83;
 }
 .slide{
     height: 550px;
